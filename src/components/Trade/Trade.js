@@ -347,7 +347,7 @@ const DepositModal = ({ chainId, account, depositModal, toggleModal }) => {
                                     <Label for="addAmount">Amount</Label>
                                     <InputGroup>
                                         <Input value={amount} onChange={handleChange} type="number" name="addAmount" id="addAmount" />
-                                        <InputGroupAddon addonType="append">MUSD</InputGroupAddon>
+                                        <InputGroupAddon addonType="append">UST</InputGroupAddon>
                                     </InputGroup>
                                     <p>Max {collateralToken.balance}{` `}{collateralToken.symbol}</p>
                                 </FormGroup>
@@ -364,7 +364,7 @@ const DepositModal = ({ chainId, account, depositModal, toggleModal }) => {
                                     <Label for="removeAmount">Amount</Label>
                                     <InputGroup>
                                         <Input value={amount} onChange={handleChange} type="number" name="removeAmount" id="removeAmount" />
-                                        <InputGroupAddon addonType="append">MUSD</InputGroupAddon>
+                                        <InputGroupAddon addonType="append">UST</InputGroupAddon>
                                     </InputGroup>
                                     <p>Available {djiPerpetual.myDeposit}{` `}{collateralToken.symbol}</p>
                                 </FormGroup>
