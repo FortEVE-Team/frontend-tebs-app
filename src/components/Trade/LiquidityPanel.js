@@ -226,7 +226,7 @@ const LiquidityPanel = ({ account, setDepositModal, isMainnet, onFaucet }) => {
                                 <Label for="currentPrice1">Price</Label>
                                 <InputGroup>
                                     <Input value={currentPrice.toLocaleString()} type="text" disabled name="currentPrice1" id="currentPrice1" />
-                                    <InputGroupAddon addonType="append">MUSD</InputGroupAddon>
+                                    <InputGroupAddon addonType="append">UST</InputGroupAddon>
                                 </InputGroup>
                             </FormGroup>
                         </Col>
