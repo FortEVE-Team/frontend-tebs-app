@@ -13,7 +13,7 @@ export const processingToast = (title = "Processing", subtitle = "Transaction is
     let suffix = "bscscan.com"
 
     if (chainId === 1666700000) {
-        suffix = "explorer.harmony.one"
+        suffix = "explorer.testnet.harmony.one"
     } 
 
     return {
