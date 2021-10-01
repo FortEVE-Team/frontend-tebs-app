@@ -92,7 +92,7 @@ const Footer = () => {
     return (
         <FooterWrapper>
             <div style={{ marginTop: 40, marginBottom: 20 }}>
-                <a target="_blank"  href="https://github.com/FortEVE-Team/EncodeHackAfrica">Twitter</a> | <a target="_blank"  href="https://github.com/FortEVE-Team/EncodeHackAfrica">Medium</a> | <a target="_blank"  href="https://github.com/FortEVE-Team/EncodeHackAfrica">GitHub</a>
+                <a target="_blank"  href="#">Twitter</a> | <a target="_blank"  href="#">Medium</a> | <a target="_blank"  href="#">GitHub</a>
             </div>
         </FooterWrapper>
     )
